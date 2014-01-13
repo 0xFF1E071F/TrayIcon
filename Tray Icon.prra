@@ -1,0 +1,22 @@
+[Version]
+Version=3000
+[Project]
+Assembler=Masm
+Path=D:\Projects\Dream In Code Tuts\Tray Icon
+Group=2,-1,0,1,Tray Icon Tutorial,-2,-1,1,Assembly,-3,-1,1,Include,-4,-1,1,Misc,-5,-1,1,Resource
+F1=-2,2,1,22,22,600,400,159,Tray Icon.asm
+F2=-5,2,4,44,44,600,400,0,Tray Icon.rc
+Open=0,1,2
+Api=
+C1=0
+B1=
+M1=
+C2=
+B2=
+M2=
+[Make]
+Make=0
+0=Window Release,'/v "$R"',"$R.res",'/c /coff /Cp "$C"',"$C.obj",'/SUBSYSTEM:WINDOWS /RELEASE /VERSION:4.0 /OUT:$O $C $M $R',"$C.exe",'',
+Delete=0
+IncBuild=0
+Run=0,'',''

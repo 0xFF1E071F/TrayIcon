@@ -1,0 +1,11 @@
+#define ICON_DIC 1
+#define ICON_RED 2
+#define ICON_YELLOW 3
+#define ICON_GREEN 4
+
+ICON_DIC ICON DISCARDABLE "DreamInCode.ico"
+ICON_RED ICON DISCARDABLE "bullet_red.ico"
+ICON_YELLOW ICON DISCARDABLE "bullet_yellow.ico"
+ICON_GREEN ICON DISCARDABLE "bullet_green.ico"
+
+
